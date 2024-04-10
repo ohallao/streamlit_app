@@ -3,6 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
+import urllib.request
 from PIL import Image
 
 custom_params = {"axes.spines.right": False, "axes.spines.top": False}
@@ -18,12 +19,20 @@ def load_data(file_path):
     
 
 def main():
-    st.set_page_config(page_title="Telemarketing analisys",
-                       page_icon="https://ibb.co/4SDKS9G",
+    # Baixa o ícone temporariamente
+    icon_url = 'https://ibb.co/4SDKS9G'
+    icon_path = 'temp_icon.png'
+    urllib.request.urlretrieve(icon_url, icon_path)
+
+    # Configura o ícone da página
+    st.set_page_config(page_title="Telemarketing Analysis",
+                       page_icon=icon_path,  # Usando o caminho local do ícone baixado
                        layout="wide",
                        initial_sidebar_state="expanded"
                        )
-    st.write("# Telemarkeng Analisys")
+
+    # Exibe o título e o conteúdo da página
+    st.write("# Telemarketing Analysis")
     st.markdown("---")
 
     image = Image.open("https://ibb.co/x8d8QVQ")
