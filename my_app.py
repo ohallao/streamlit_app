@@ -37,9 +37,9 @@ def main():
 def main():
     # Baixa a imagem temporariamente
     image_url = 'https://ibb.co/x8d8QVQ'
-    image_path = 'temp_image.png'
+    image_path_2 = 'temp_image.png'
     urllib.request.urlretrieve(image_url, image_path)
-    image = Image.open(image_path)
+    image = Image.open(image_path_2)
     st.sidebar.image(image)
 
 
