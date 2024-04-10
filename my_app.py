@@ -34,9 +34,14 @@ def main():
     # Exibe o título e o conteúdo da página
     st.write("# Telemarketing Analysis")
     st.markdown("---")
-
-    image = Image.open("https://ibb.co/x8d8QVQ")
+def main():
+    # Baixa a imagem temporariamente
+    image_url = 'https://ibb.co/x8d8QVQ'
+    image_path = 'temp_image.png'
+    urllib.request.urlretrieve(image_url, image_path)
+    image = Image.open(image_path)
     st.sidebar.image(image)
+
 
     # Data reading
     uploaded_file = st.sidebar.file_uploader("Bank marketing data",
