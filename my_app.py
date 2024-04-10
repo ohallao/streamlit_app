@@ -20,14 +20,14 @@ def load_data(file_path):
 
 def main():
     st.set_page_config(page_title="Telemarketing analisys",
-                       page_icon= r"C:\Users\allan\OneDrive\Área de Trabalho\Python\Data Science\3-Desenvolvimento Modelos com Pandas e Python\Módulo 19 - Streamlit II\streamlit_app\img\telmarketing_icon.png",
+                       page_icon= "https://github.com/ohallao/streamlit_app/blob/master/img/telmarketing_icon.png",
                        layout="wide",
                        initial_sidebar_state="expanded"
                        )
     st.write("# Telemarkeng Analisys")
     st.markdown("---")
 
-    image = Image.open(r"C:\Users\allan\OneDrive\Área de Trabalho\Python\Data Science\3-Desenvolvimento Modelos com Pandas e Python\Módulo 19 - Streamlit II\streamlit_app\img\Bank-Branding.jpg")
+    image = Image.open("https://github.com/ohallao/streamlit_app/blob/master/img/Bank-Branding.jpg")
     st.sidebar.image(image)
 
     # Data reading
