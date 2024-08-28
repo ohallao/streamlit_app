@@ -37,6 +37,8 @@ Acesse a aplicação no navegador, geralmente em http://localhost:8501.
 # 5. Deploy
 A aplicação foi implantada no Render para facilitar o acesso e compartilhamento. Para visualizar a aplicação ao vivo, visite https://render.com/
 
+# https://streamlit-app-z7nd.onrender.com
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 1. Project Objective
@@ -65,3 +67,5 @@ Access the application in the browser, usually at http://localhost:8501.
 
 # 5. Deployment
 The application has been deployed on Render for easy access and sharing. To view the live application, visit https://render.com.
+
+# https://streamlit-app-z7nd.onrender.com
