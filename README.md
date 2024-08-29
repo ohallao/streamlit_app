@@ -4,7 +4,7 @@ Este projeto foi desenvolvido para criar uma aplicação web interativa utilizan
 
 # 2. Motivação
 
-O projeto foi concebido como uma forma de explorar as capacidades do Streamlit para visualização de dados, com foco em facilitar a criação de interfaces de usuário sem a necessidade de um profundo conhecimento em desenvolvimento web. A motivação principal é fornecer uma ferramenta que permita a rápida prototipagem de visualizações e análises de dados.
+O projeto foi concebido como uma forma de explorar as capacidades do Streamlit para visualização de dados, com foco em facilitar a criação de interfaces de usuário. A motivação principal é fornecer uma ferramenta que permita a rápida prototipagem de visualizações e análises de dados.
 
 # 3. Tecnologias Usadas
 
@@ -20,16 +20,16 @@ O projeto foi concebido como uma forma de explorar as capacidades do Streamlit p
 
 # 4. Como Executar
 
-  Clone este repositório:
+  #### Clone este repositório:
     git clone https://github.com/ohallao/streamlit_app.git
 
-  Navegue até o diretório do projeto:
+  #### Navegue até o diretório do projeto:
     cd streamlit_app
     
-  Instale as dependências:
+  #### Instale as dependências:
     pip install -r requirements.txt
     
-  Execute a aplicação:
+  #### Execute a aplicação:
     streamlit run app.py
     
 Acesse a aplicação no navegador, geralmente em http://localhost:8501.
